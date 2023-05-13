@@ -132,12 +132,12 @@
 }
 
 .economia_texto {
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 25px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    inline-size: 80vw;
+    inline-size: 75vw;
 
 }
 
@@ -159,19 +159,19 @@
 }
 
 .tecnologia_texto {
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 25px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    inline-size: 80vw;
+    inline-size: 75vw;
 
 }
 
 .tendencia {
     background: #145b9c;
     width: 100vw;
-    height: 200vw;
+    height: 180vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -186,11 +186,10 @@
 }
 
 .tendencia_texto {
-    margin-top: 50px;
-    font-size: 30px;
+    margin-top: 25px;
+    font-size: 25px;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
-    inline-size: 80vw;
-    margin-bottom: 60vw;
+    inline-size: 75vw;
 }
