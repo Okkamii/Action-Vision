@@ -79,6 +79,17 @@
     animation: kikada 3s linear infinite;
 }
 
+.shadow {
+    position: absolute;
+    width: 75vw;
+    height: 20vw;
+    background: black;
+    border-radius: 100%;
+    filter: blur(30px);
+    margin-top: 500px;
+    opacity: 30%;
+}
+
 @keyframes kikada {
     from {transform: translateY(-15px);}
     50% {transform: translateY(0);}
