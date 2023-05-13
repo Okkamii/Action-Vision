@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 100%;
+}
+
+.header {
+    width: 100vw;
+    height: 15vw;
+    background: linear-gradient(white, rgb(233, 233, 233));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    position: fixed;
+    z-index: 2;
+    box-shadow: 0px -5px 50px 0px rgba(0, 0, 0, 0.5)
+}
+
+.header_title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 35px;
+}
+
+.header_title::before {
+    content: 'Action';
+    color: #145b9c
+    ;
+}
+.header_title::after {
+    content: ' Vision';
+    color: #cc2c11
+    ;
+}
+
+.content {
+    position: relative;
+    width: 100vw;
+    height: 175vw;
+    background: white;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    flex-direction: column;
+    z-index: -2;
+}
+
+.content_title {
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #145b9c;
+    inline-size: 75vw;
+    text-transform: uppercase;
+}
+
+.content_title::before {
+    content: 'Veja o ';
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #cc2c11;
+}
+.content_title::after {
+    content: ' de uma Outra Forma';
+    color: #cc2c11;
+}
+
+.content_img {
+    width: 75vw;
+    height: 50vw;
+    object-fit: scale-down;
+    margin-top: 30px;
+    animation: kikada 3s linear infinite;
+}
+
+@keyframes kikada {
+    from {transform: translateY(-15px);}
+    50% {transform: translateY(0);}
+    to {transform: translateY(-15px);}
+}
+
+.contet_separate {
+    width: 65vw;
+    height: 0.5vw;
+    background: #145b9c;
+    margin-top: 10px;
+    border-radius: 64px;
+}
+
+.content_text {
+    margin-top: 20px;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    inline-size: 75vw;
+}
+.content_text2 {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: end;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    inline-size: 50vw;
+}
+
+.propaganda {
+    color: white;
+}
+
+.economia {
+    background: #145b9c;
+    width: 100vw;
+    height: 180vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.economia_title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.economia_texto {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    inline-size: 80vw;
+
+}
+
+.tecnologia {
+    background: #cc2c11;
+    width: 100vw;
+    height: 180vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tecnologia_title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.tecnologia_texto {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    inline-size: 80vw;
+
+}
+
+.tendencia {
+    background: #145b9c;
+    width: 100vw;
+    height: 200vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tendencia_title {
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+.tendencia_texto {
+    margin-top: 50px;
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    inline-size: 80vw;
+    margin-bottom: 60vw;
+}
